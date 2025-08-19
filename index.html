@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/Logo.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/Logo.jpg" rel="logo">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -208,143 +208,249 @@
     </section><!-- End Services Section -->
 
     
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
+    
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+  <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <!-- <p>Check out our gallery and prices we charge</p> -->
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <!-- <p>Check out our gallery and prices we charge</p> -->
+    </div>
+
+    <!-- Filter buttons -->
+    <div class="portfolio-filters d-flex flex-wrap gap-2 mb-4" role="tablist" aria-label="Filter portfolio by service">
+      <button class="btn btn-sm btn-outline-primary active" data-filter="*" type="button" aria-selected="true">Show all</button>
+      <button class="btn btn-sm btn-outline-primary" data-filter="audio" type="button">Car Audio Supply and Installation</button>
+      <button class="btn btn-sm btn-outline-primary" data-filter="boot" type="button">Custom boot setups & interior</button>
+      <button class="btn btn-sm btn-outline-primary" data-filter="paint" type="button">Paint jobs & panel beating</button>
+      <button class="btn btn-sm btn-outline-primary" data-filter="suspension" type="button">Suspension overhaul & Air/Coil-over</button>
+      <button class="btn btn-sm btn-outline-primary" data-filter="engine" type="button">Engine repairs & services</button>
+      <button class="btn btn-sm btn-outline-primary" data-filter="projects" type="button">Full project car builds</button>
+    </div>
+
+    <!-- ONE isotope container for everything -->
+    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+      <!-- AUDIO -->
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="audio">
+        <img src="assets/img/portfolio/gallery3.jpg" class="img-fluid" alt="Basic installation">
+        <div class="portfolio-info">
+          <h4>R1500</h4>
+          <a href="assets/img/portfolio/gallery3.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Basic Installation"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
         </div>
-
-       
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/gallery.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Business Car</h4>
-             
-              <a href="assets/img/portfolio/gallery.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Madibuseng"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/gallery1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R21 000</h4>
-           
-              <a href="assets/img/portfolio/gallery1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Air Suspension"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/gallery2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R5200</h4>
-            
-              <a href="assets/img/portfolio/gallery2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Coil overs"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/gallery3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R1500</h4>
-              
-              <a href="assets/img/portfolio/gallery3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Basic Installation"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/gallery4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R2500</h4>
-              
-              <a href="assets/img/portfolio/gallery4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Full House Installation"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/gallery5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R850</h4>
-              
-              <a href="assets/img/portfolio/gallery5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Custom Enclosure"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/gallery6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R10 000</h4>
-              
-              <a href="assets/img/portfolio/gallery6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Boot Setup"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/gallery7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R2500</h4>
-             
-              <a href="assets/img/portfolio/gallery7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Full House Installation"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/gallery8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R2500</h4>
-             
-              <a href="assets/img/portfolio/gallery8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Full House Installation"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/gallery9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R5200</h4>
-             
-              <a href="assets/img/portfolio/gallery9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Coil overs"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/gallery10.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R3000</h4>
-             
-              <a href="assets/img/portfolio/gallery10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="7 inch android Screen"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/gallery11.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>R21 000</h4>
-             
-              <a href="assets/img/portfolio/gallery11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Air Suspe"><i class="bx bx-plus"></i></a>
-              <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Portfolio Section -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="audio">
+        <img src="assets/img/portfolio/gallery4.jpg" class="img-fluid" alt="Full house installation">
+        <div class="portfolio-info">
+          <h4>R2500</h4>
+          <a href="assets/img/portfolio/gallery4.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Full House Installation"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="audio">
+        <img src="assets/img/portfolio/gallery5.jpg" class="img-fluid" alt="Custom enclosure">
+        <div class="portfolio-info">
+          <h4>R850</h4>
+          <a href="assets/img/portfolio/gallery5.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Custom Enclosure"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="audio,boot">
+        <img src="assets/img/portfolio/gallery6.jpg" class="img-fluid" alt="Boot setup">
+        <div class="portfolio-info">
+          <h4>R10 000</h4>
+          <a href="assets/img/portfolio/gallery6.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Boot Setup"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="audio">
+        <img src="assets/img/portfolio/gallery8.jpg" class="img-fluid" alt="Audio paint install">
+        <div class="portfolio-info">
+          <h4>R2500</h4>
+          <a href="assets/img/portfolio/gallery8.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Audio Paint Install"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="audio">
+        <img src="assets/img/portfolio/gallery10.jpg" class="img-fluid" alt="7 inch Android screen">
+        <div class="portfolio-info">
+          <h4>R3000</h4>
+          <a href="assets/img/portfolio/gallery10.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="7 inch Android Screen"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <!-- BOOT + SUSPENSION -->
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="boot,suspension">
+        <img src="assets/img/portfolio/gallery7.jpg" class="img-fluid" alt="Custom boot setup">
+        <div class="portfolio-info">
+          <h4>R2500</h4>
+          <a href="assets/img/portfolio/gallery7.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Custom Boot Setup"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="boot,suspension">
+        <img src="assets/img/portfolio/gallery11.jpg" class="img-fluid" alt="Air suspension boot">
+        <div class="portfolio-info">
+          <h4>R21 000</h4>
+          <a href="assets/img/portfolio/gallery11.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Air Suspension Boot"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <!-- PAINT -->
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="paint,projects">
+        <img src="assets/img/portfolio/gallery13.jpg" class="img-fluid" alt="Custom paint job">
+        <div class="portfolio-info">
+          <h4>Paint Job</h4>
+          <a href="assets/img/portfolio/gallery13.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Custom Paint Job"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="paint,projects">
+        <img src="assets/img/portfolio/gallery14.jpg" class="img-fluid" alt="Panel beating">
+        <div class="portfolio-info">
+          <h4>Panel Beating</h4>
+          <a href="assets/img/portfolio/gallery14.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Panel Beating"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <!-- SUSPENSION -->
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="suspension">
+        <img src="assets/img/portfolio/gallery1.jpg" class="img-fluid" alt="Air suspension">
+        <div class="portfolio-info">
+          <h4>R21 000</h4>
+          <a href="assets/img/portfolio/gallery1.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Air Suspension"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="suspension">
+        <img src="assets/img/portfolio/gallery2.jpg" class="img-fluid" alt="Coil overs">
+        <div class="portfolio-info">
+          <h4>R5200</h4>
+          <a href="assets/img/portfolio/gallery2.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Coil Overs"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="suspension">
+        <img src="assets/img/portfolio/gallery9.jpg" class="img-fluid" alt="Coil overs">
+        <div class="portfolio-info">
+          <h4>R5200</h4>
+          <a href="assets/img/portfolio/gallery9.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Coil Overs"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <!-- ENGINE -->
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="engine">
+        <img src="assets/img/portfolio/gallery12.jpg" class="img-fluid" alt="Engine repair">
+        <div class="portfolio-info">
+          <h4>Engine Repair</h4>
+          <a href="assets/img/portfolio/gallery12.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Engine Repair"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="engine">
+        <img src="assets/img/portfolio/gallery16.jpg" class="img-fluid" alt="Car service">
+        <div class="portfolio-info">
+          <h4>Service</h4>
+          <a href="assets/img/portfolio/gallery16.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Car Service"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="engine,projects">
+        <img src="assets/img/portfolio/gallery17.jpg" class="img-fluid" alt="Engine overhaul">
+        <div class="portfolio-info">
+          <h4>Engine Overhaul</h4>
+          <a href="assets/img/portfolio/gallery17.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Engine Overhaul"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="engine">
+        <img src="assets/img/portfolio/gallery18.jpg" class="img-fluid" alt="Repair & service">
+        <div class="portfolio-info">
+          <h4>Repair Service</h4>
+          <a href="assets/img/portfolio/gallery18.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Repair & Service"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="projects">
+        <img src="assets/img/portfolio/gallery.jpg" class="img-fluid" alt="Business car">
+        <div class="portfolio-info">
+          <h4>Business Car</h4>
+          <a href="assets/img/portfolio/gallery.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Project Car"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="projects">
+        <img src="assets/img/portfolio/gallery15.jpg" class="img-fluid" alt="Full project build">
+        <div class="portfolio-info">
+          <h4>Project Build</h4>
+          <a href="assets/img/portfolio/gallery15.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Full Project Build"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="projects">
+        <img src="assets/img/portfolio/gallery19.jpg" class="img-fluid" alt="Project car">
+        <div class="portfolio-info">
+          <h4>Project Car</h4>
+          <a href="assets/img/portfolio/gallery19.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Project Car"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="projects">
+        <img src="assets/img/portfolio/gallery20.jpg" class="img-fluid" alt="Project car">
+        <div class="portfolio-info">
+          <h4>Project Car</h4>
+          <a href="assets/img/portfolio/gallery20.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Project Car"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="projects">
+        <img src="assets/img/portfolio/gallery21.jpg" class="img-fluid" alt="Project car">
+        <div class="portfolio-info">
+          <h4>Project Car</h4>
+          <a href="assets/img/portfolio/gallery21.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Project Car"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-service="projects">
+        <img src="assets/img/portfolio/gallery22.jpg" class="img-fluid" alt="Project car">
+        <div class="portfolio-info">
+          <h4>Project Car</h4>
+          <a href="assets/img/portfolio/gallery22.jpg" class="portfolio-lightbox preview-link" data-gallery="portfolioGallery" title="Project Car"><i class="bx bx-plus"></i></a>
+          <a href="" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+        </div>
+      </div>
+
+    </div><!-- /.portfolio-container -->
+  </div>
+</section>
+
+<!-- End Portfolio Section -->
+
 
     <!-- ======= Founder Section ======= -->
 <section id="team" class="team section-bg">
